@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --gray: rgb(3, 29, 54);
+    --red: rgb(247, 213, 21);
+}
+
+#btn1 {
+    background: var(--gray);
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#btn2 {
+    background: var(--gray);
+    height: 800px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#btn3 {
+    background: var(--gray);
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+}
+
+body {
+    background-color:var(--red);
+    margin: 0 10 0 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{ color:var(--gray);
+    margin:30px;
+
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 10px;
+    border-left: 6px solid var(--gray);
+}
+
+p{color:white;}
+
+/* FLOATS */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.information {
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:var(--red);
+}
+
+header {
+    background-color:var(--red);
+    color: var(--gray);
+    margin-top: 10px;
+    height:150px;
+    
+}
+
+img {
+    margin: 10px;
+    float: left;
+    
+    }
+img:hover{box-shadow: 0 0 15px white;}
+
+
+span {
+    color:var(--red);
+}
+
+button {margin-bottom: 0px;
+    background: var(--gray);
+    color:var(--red);
+    height: 35px;
+    width:100px;
+    border-color:var(--red);
+    border-radius: 10px; 
+}
+
+button:hover {box-shadow: 0 0 15px var(--gray);}
+
+nav ul li {
+    margin-left: 40px;
+    font-size: 20px;
+    float: right;
+    list-style-type: none;
+    
+}
+
+ h2, h3, h4 {
+    font-size: 1.5em;
+    margin: 10px;
+    color: var(--red);
+}
+
+#contacts ul li {
+    text-align: center;
+    width: 100%;
+    margin: 50px;
+    list-style-type: none;
+    color:var(--red);
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    list-style-type: none;background-color: var(--red);
+}
+li{color:white;}
+
+@media screen (min-width: 768px) {
+    main, nav {
+        flex-direction: column;
+    }
+}
