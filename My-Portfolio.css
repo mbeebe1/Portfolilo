@@ -101,6 +101,7 @@ button {margin-bottom: 0px;
     width:100px;
     border-color:var(--red);
     border-radius: 10px; 
+    margin-right:5px
 }
 
 button:hover {box-shadow: 0 0 15px var(--gray);}
