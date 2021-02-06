@@ -5,8 +5,9 @@
 }
 
 :root {
-    --gray: rgb(3, 29, 54);
-    --red: rgb(247, 213, 21);
+    --gray: rgb(255, 136, 0);
+    --red: rgb(98, 51, 7)
+;
 }
 
 #btn1 {
@@ -102,7 +103,7 @@ button {margin-bottom: 0px;
     border-radius: 10px; 
 }
 
-button:hover {box-shadow: 0 0 15px var(--gray);}
+button:hover {box-shadow: 0 5 15px var(--gray);}
 
 nav ul li {
     margin-left: 40px;
