@@ -137,8 +137,7 @@ footer {
 }
 li{color:white;}
 
-@media screen (min-width: 768px) {
-    main, nav {
-        flex-direction: column;
-    }
+#links {
+    margin-top: 400px;
 }
+
